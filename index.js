@@ -1,3 +1,5 @@
-import { f } from "./src/missingNumber.js";
+const missingNumber = require("./src/missingNumber");
 
-console.log(f(5, 6))
+const example = [5, 0, 1, 3, 2];
+
+console.log(missingNumber(example))
